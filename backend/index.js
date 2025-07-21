@@ -45,7 +45,7 @@ const Transaction = mongoose.model("Transaction", transactionSchema);
 
 //Start the server
 app.listen(5000, (req, res) => {
-    console.log('🚀 Server running at http://localhost:5000/');
+    console.log('🚀 Server running at https://financial-tracker-gpn7.onrender.com/');
 });
 
 // GET /transactions - fetch all transactions
